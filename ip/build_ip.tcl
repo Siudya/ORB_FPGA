@@ -1,0 +1,9 @@
+cd HLS_myGaussianFilter
+source build_ip.tcl
+cd ..
+cd comDescriptor
+source build_ip.tcl
+cd ..
+cd comFAST
+source build_ip.tcl
+cd ..

@@ -16,13 +16,13 @@
 ### 第一步：重建HLS IP
 打开vivado HLS 命令行工具，运行以下命令：
 ```
-cd <path-to-source_code>/ip
+cd <path-to-proj>/ip
 vivado_hls -f build_ip.tcl
 ```
 ### 第二步：重建vivado系统工程
 打开vivado命令行工具，运行以下命令：
 ```
-cd <path-to-source_code>/pynq_arch
+cd <path-to-proj>/pynq_arch
 source pynq_arch.tcl
 ```
 ## 运行软件测试要求

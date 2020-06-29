@@ -8,7 +8,7 @@ if os.geteuid() != 0:
     print("This program must be run as root. Aborting.")
     sys.exit(1)
 
-if os.environ['BOARD'] != 'Pynq-Z2' or os.environ['BOARD'] != 'Pynq-Z1':
+if os.environ['BOARD'] != 'Pynq-Z2' and os.environ['BOARD'] != 'Pynq-Z1':
     print("Only supported on a Pynq-Z2 and Pynq-Z1 Board")
     exit(1)
 

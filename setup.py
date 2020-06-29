@@ -20,7 +20,7 @@ setup(
 	author = "Liang Sen",
 
 	include_package_data = True,
-	packages = ['respeaker'],
+	packages = ['ORB_FPGA'],
 	package_data = {
 	'' : ['*.bit','*.py','*.bin','*.txt', '*.cpp', '*.h', '*.sh','*.hwh'],
 	},

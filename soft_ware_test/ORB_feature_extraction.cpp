@@ -370,7 +370,7 @@ int main()
     {
         imgVec[i].create(640, 480, CV_8UC1);
     }
-    std::string str0("../test_data/");
+    std::string str0("../pynq_notebook/test_data/");
     std::string str1(".jpg");
     
     

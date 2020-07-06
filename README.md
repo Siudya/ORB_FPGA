@@ -1,6 +1,6 @@
 ## Introduction
 This project implements a ORB feature extractor accelerator on FPGA (on PYNQ-Z2 board).ORB feature is a kind of image feature based on oriented FAST feature and BRIEF descriptor. It's used in feature mapping of some famous work such as ORB-SLAM.Here is a brief explanation of how ORB Features are extracted.  
-<center> ![ORB](./pynq_notebook/data/ORB.jpg) </center> 
+<div style="text-align: center"> ![ORB](./pynq_notebook/data/ORB.jpg) </div> 
 The extractor will take a gray image and applys a FAST extractor on it. After feature points being found, it will calculate m01 and m10 moment of the feature points and figure out the angle of them. Calculating BRIEF descriptors needs the angle and a gray image which is the original gray image applied a 7x7 gaussian filter.  
 ![Accelerator](./pynq_notebook/data/accel.jpg)
 ## Quick Start

@@ -3,7 +3,7 @@ This project implements a ORB feature extractor accelerator on FPGA (on PYNQ-Z2 
 ## Quick Start
 Run these command lines on your Pynq-Z2 Board (tested on v2.4):
 ```
-sudo pip3 install https://github.com/Siudya/ORB_FPGA
+sudo pip3 install git+https://github.com/Siudya/ORB_FPGA.git
 ```
 ## Contents of each folder
 ### ip

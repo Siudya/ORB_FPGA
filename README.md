@@ -38,7 +38,7 @@ HLS sources files
 Vivado project
 ### pynq_notebook
 Notebook run in Jupyter Notebook
-### soft_ware_test
+### software_test
 A .cpp file that test the same process on CPU 
 ### test_data
 Images for testing

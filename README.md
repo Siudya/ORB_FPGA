@@ -16,7 +16,13 @@ The extractor will take a gray image and applys a FAST extractor on it. After fe
 | BRAM18K  |     50      |    140    |    35.71    |
 |   DSP    |     24      |    220    |    10.91    |
 
-### 2.Performance (testing on images on 640*480)
+### 2.Performance (testing on images in 640*480)
+|   Platform    | Average Delay | Throughoutput |
+| :-----------: | :-----------: | :-----------: |
+| PS 650mHz -O  |   291.7 ms    |   3.43 FPS    |
+| PS 650mHz -O2 |    98.5 ms    |   10.20 FPS   |
+|   PL 140mHz   |   17.56 ms    |   56.96 FPS   |
+
 ### 3. Result Picture
 <div align=center>
 <img src="./pynq_notebook/data/res.png" />

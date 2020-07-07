@@ -6,7 +6,7 @@ This project implements a ORB feature extractor accelerator on FPGA (on PYNQ-Z2 
 
 The extractor will take a gray image and applys a FAST extractor on it. After feature points being found, it will calculate m01 and m10 moment of the feature points and figure out the angle of them. Calculating BRIEF descriptors needs the angle and a gray image which is the original gray image applied a 7x7 gaussian filter.  
 ![Accelerator](./pynq_notebook/data/accel.jpg)  
-## Resut  
+## Result  
 ### 1.Resource Utilizaton (on Pynq-Z2)
 | Resource | Utilization | Available | Utilization |
 | :------: | :---------: | :-------: | :---------: |

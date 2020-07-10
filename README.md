@@ -21,7 +21,7 @@ The extractor will take a gray image and applys a FAST extractor on it. After fe
 | :-----------: | :-----------: | :-----------: |
 | PS 650mHz -O  |   291.7 ms    |   3.43 FPS    |
 | PS 650mHz -O2 |    98.5 ms    |   10.20 FPS   |
-|   PL 140mHz   |   17.56 ms    |   56.96 FPS   |
+|   PL 140mHz   |   17.56 ms    |   56.58 FPS   |
 
 ### 3. Result Picture
 ![](./pynq_notebook/data/res.png)  
